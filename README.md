@@ -7,7 +7,7 @@
 
 
 ## Backend
-Java Spring Boot, Maven
+Java Spring Boot, Maven, MongoDB
 
 ## Front-End
 JavaScript, React
