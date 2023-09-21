@@ -1,6 +1,7 @@
 # NPB-Scout
  full-stack Project: Follow and review players from the NPB!
 
+## Structure
  backend folder: baseball
  frontend folder: player-follow
 
