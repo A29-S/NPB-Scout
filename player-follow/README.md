@@ -10,7 +10,7 @@ Pages folder contains the three main pages, PlayerOverview, PlayerProfile, TeamO
 - provides the ability for user to search a player by name
 - upon clicking player routes to PlayerProfile
 
-#3 TeamOverview (Work in Progress)
+## TeamOverview (Work in Progress)
 - Click on the team name to retrieve a list of all players on that team
 - Displays team stats relative to the leagues 
 - Upon clicking player routes to PlayerProfile
