@@ -1,3 +1,26 @@
+# player-follow 
+
+## Design
+
+Implemented routers that route the home page to either player search or team search 
+Pages folder contains the three main pages, PlayerOverview, PlayerProfile, TeamOverview 
+
+## PlayerOverview
+- loads the players from the MongoDB database 
+- provides the ability for user to search a player by name
+- upon clicking player routes to PlayerProfile
+
+#3 TeamOverview (Work in Progress)
+- Click on the team name to retrieve a list of all players on that team
+- Displays team stats relative to the leagues 
+- Upon clicking player routes to PlayerProfile
+
+## PlayerProfile
+- Displays player stats and past reviews
+- Allows users to add review
+- Displays a visual of the player's stats relative to the leagues at that position and overall ranking of all position players (Work in Progess) 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
