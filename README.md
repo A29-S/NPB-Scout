@@ -2,7 +2,7 @@
  full-stack Project: Follow and review players from the NPB!
 
 ## Backend
-Java Spring Boot, Maven, MongoDB
+Java, Spring Boot, Maven, MongoDB
 
 ## Frontend
 JavaScript, React
