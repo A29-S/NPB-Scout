@@ -1,15 +1,11 @@
 # NPB-Scout
  full-stack Project: Follow and review players from the NPB!
 
-## Backend
+## Backend  (baseball)
 Java, Spring Boot, Maven, MongoDB
 
-## Frontend
+## Frontend (player-follow)
 JavaScript, React
-
-## Structure
- **backend folder:** baseball
- **frontend folder:** player-follow
 
 ## Version 2. (Current)
 
