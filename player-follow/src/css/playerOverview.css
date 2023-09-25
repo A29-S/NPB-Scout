@@ -1,0 +1,144 @@
+/* App.css */
+.App-po{
+    font-family: Figtree, sans-serif;
+    text-align: center;
+    margin: 0;
+    /* background-color: #1d1d2c; */
+    background-color: #000;
+    height: 100vh;
+  }
+  .h1-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 10px;
+  }
+  
+  .search-input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  
+  .button-search {
+    background-color: #2862AE;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 10px;
+  }
+  
+  .button-search:hover {
+    background-color: #90b8e1;
+  }
+
+  .reset-button {
+    background-color: #e60012;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+
+  }
+
+  .reset-button:hover {
+    background-color: #e45858;
+    color: #ffffff;
+  }
+
+  
+  /* button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } */
+  
+  body {
+    background-color: #000; /* Set background color to black */
+    text-align: center;
+    margin: 20px;
+  }
+
+  .yellow-progress-bar {
+    .MuiLinearProgress-barColorPrimary {
+      /* background-color: rgba(0, 251, 255, 0.758);  */
+      background: linear-gradient(to left, #e60012, #2862AE);
+    }
+  }
+
+/* Add styles for the scrollable list */
+.scrollable-list {
+    max-height: calc(100vh - 200px); /* Set a maximum height based on the viewport height minus 200px (adjust as needed) */
+    overflow-y: auto; /* Add vertical scroll when the content exceeds the maximum height */
+    padding: 0; /* Remove any padding to prevent unnecessary space */
+    margin: 0; /* Remove any margin to prevent unnecessary space */
+    /* background: linear-gradient(to bottom, #0f0f0f, #000000); */
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+  }
+  
+  /* Style the scrollbar */
+  .scrollable-list::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+  }
+  
+  /* Style the scrollbar track */
+  .scrollable-list::-webkit-scrollbar-track {
+    background: transparent; /* Set the track background color */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  .scrollable-list::-webkit-scrollbar-thumb {
+    background: #0092e6; /* Set the thumb background color to red */
+    border-radius: 5px; /* Add some border-radius for aesthetics */
+  }
+  
+
+  li{
+    color: rgb(143, 214, 255);
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 10%s;
+    margin-top: 10px;
+  }
+
+  .back-button-container {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+  }
+  
+  /* Style the back button */
+  .back-button{
+    background-color: #ffffff; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    padding: 10px 20px;
+  }
+  
+  /* Hover effect */
+  .back-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+
+  .loading-message {
+    color: white;
+  }

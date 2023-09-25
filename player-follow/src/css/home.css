@@ -1,0 +1,87 @@
+/* Apply styles to the root container */
+.App-home {
+    display: flex;
+    height: 100vh;
+    font-family: Figtree, sans-serif;
+  }
+  
+
+.info{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -5px;
+    color: #2862AE;
+ 
+}
+  /* Style the right half (white) */
+  .right-half {
+    flex: .60; /* Take up half of the available width */
+    background-image: url('../images/tokyoDome.jpg');
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-size: 120%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-half {
+    flex: .40;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    padding: 20px; /* Add padding to space out the content */
+  }
+  
+  /* Style the title */
+  .title {
+    font-size: 60px; /* Larger font size */
+    margin-bottom: 20px;
+    margin: 10px;
+    transition: background-image 0.3s ease; /* Add a transition for smooth hover effect */
+
+  }
+
+  
+  
+  /* Style the buttons */
+  .buttons {
+    display: flex;
+    flex-direction: row; /* Arrange buttons side by side */
+    align-items: center; /* Vertically center the buttons */
+  }
+  
+  .button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  
+  .button:hover {
+    background-color: #e60012;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the right half (white) */
+  .right-half {
+    flex: 1;
+    background-image: url('../images/tokyoDome.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  

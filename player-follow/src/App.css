@@ -7,21 +7,24 @@
 .App {
   text-align: center;
   font-family: Figtree, sans-serif;
-  color: #006EB4;
+  height: 100vh;
+
+  color: #fff; /* Set text color to white */
 }
 
 /* Style for the heading */
-h1 {
+/* h1 {
   color: #333;
-}
+} */
+
 
 /* Style for input and buttons */
-input, .button-search {
+/* input, .button-search {
   padding: 10px;
   margin: 5px;
   border: 1px solid #347acf;
   border-radius: 5px;
-}
+} */
 
 /* Style for search results */
 ul {
@@ -29,14 +32,14 @@ ul {
   padding: 0;
 }
 
-li {
+/* li {
   margin: 10px;
   padding: 10px;
   border: 1px solid #347acf;
   border-radius: 12px;
   cursor: pointer;
-}
-.past {
+} */
+/* .past {
   background-color: #769ce2;
   margin: 10px;
   padding: 10px;
@@ -44,20 +47,20 @@ li {
   border-radius: 12px;
   cursor: pointer;
   color: white;
-}
+} */
 
 /* Style for selected player details */
-h2 {
+/* h2 {
   color: #333;
   margin-top: 20px;
-}
+} */
 
 p {
   color: #666;
 }
 
 /* Style for cards */
-.Card {
+/* .Card {
   width: 200px;
   margin: 10px;
   border: 1px solid #ccc;
@@ -97,7 +100,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 16px;
-}
+} */
 
 .responsive {
   /* width: 100%;
@@ -105,79 +108,4 @@ p {
   max-width: 150px;
   max-height: 120px;
   
-
-  
-}
-
-/* Style for the Tigers card with gradient background */
-.TigersCard {
-  /* background: linear-gradient(to bottom, #FF6B00, #FF931E); */
-  background: linear-gradient(to bottom, #ff8400, #FF6B00);
-
-  /* background: #FF6B00; */
-}
-
-/* Style for the Giants card with gradient background */
-.GiantsCard {
-  /* background: linear-gradient(to bottom, #000000, #E64A19); */
-  background: linear-gradient(to bottom, #421304, #000000);
-
-}
-
-/* Style for the Carp card with gradient background */
-.CarpCard {
-  /* background: linear-gradient(to bottom, #ff0000, #ffffff); */
-  background: linear-gradient(to bottom, #f94a4a, #ff0000);
-
-}
-
-/* Style for the Bay Stars card with gradient background */
-.BayStarsCard {
-  background: linear-gradient(to bottom, #00AEEF, #006EB4);
-}
-
-/* Style for the Dragons card with gradient background */
-.DragonsCard {
-  /* background: linear-gradient(to bottom, rgb(0 51 119), #ffffff); */
-  background: linear-gradient(to bottom, rgb(21, 96, 194), rgb(0 51 119));
-
-}
-
-/* Style for the Swallows card with gradient background */
-.SwallowsCard {
-  /* background: linear-gradient(to bottom, rgb(0 20 67), rgb(7 49 144)); */
-  background: linear-gradient(to bottom, rgb(7 49 144), rgb(0 20 67));
-
-}
-
-/* Style for the Buffaloes card with gradient background */
-.BuffaloesCard {
-  /* background: linear-gradient(to bottom, black, gold); */
-  background: linear-gradient(to bottom, rgb(77, 65, 0), black);
-
-}
-
-/* Style for the Softbank Hawks card with gradient background */
-.SoftbankHawksCard {
-  background: linear-gradient(to bottom, #F5C700, #ED9205);
-}
-
-/* Style for the Ham Fighters card with gradient background */
-.HamFightersCard {
-  background: linear-gradient(to bottom, #056ddd, #016299);
-}
-
-/* Style for the Lotto Marines card with gradient background */
-.LotteMarinesCard {
-  background: linear-gradient(to bottom, #f1f1f1, #dcdcdc);
-}
-
-/* Style for the Seibu Lions card with gradient background */
-.SeibuLionsCard {
-  background: linear-gradient(to bottom, #d72c34, #AB0008);
-}
-
-/* Style for the Golden Eagles card with gradient background */
-.GoldenEaglesCard {
-  background: linear-gradient(to bottom, #832f37, #84111c);
 }
